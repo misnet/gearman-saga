@@ -1,0 +1,17 @@
+{
+    "name": "stephenwf/gearman-saga",
+    "authors": [
+        {
+            "name": "Stephen Fraser",
+            "email": "stephen.fraser@digirati.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GearmanSaga\\": "src"
+        }
+    },
+    "require": {
+        "react/promise": "^2.4"
+    }
+}
