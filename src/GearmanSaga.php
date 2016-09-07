@@ -80,7 +80,7 @@ final class GearmanSaga
             $items[] = $t;
         }
         all($items)->then(Closure::bind(
-            function (array $data) use (&$next) {
+            function (...$data) use (&$next) {
                 if ($next->valid()) {
                     $next->send(
                         array_map(
